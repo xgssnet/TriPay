@@ -84,7 +84,7 @@
 
       <!-- Footer -->
       <div class="pay-footer">
-        <p>由 三合一收款码 提供技术支持</p>
+        <p>由 TriPay 提供技术支持</p>
       </div>
     </template>
 

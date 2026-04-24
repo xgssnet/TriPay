@@ -1,4 +1,4 @@
-# 三合一收款码
+# TriPay
 
 一个简洁优雅的三合一收款码生成工具，支持将 QQ、微信、支付宝收款码合并为一个专属链接，方便分享和扫码支付。
 
@@ -40,7 +40,7 @@
 
 ```bash
 git clone <repository-url>
-cd QQ-WEIXIN-ZHIFUBAO
+cd TriPay
 ```
 
 2. 安装后端依赖
@@ -134,7 +134,7 @@ server {
 
     # 前端静态资源
     location / {
-        root /path/to/QQ-WEIXIN-ZHIFUBAO/frontend/dist;
+        root /path/to/TriPay/frontend/dist;
         try_files $uri $uri/ /index.html;
     }
 
@@ -147,7 +147,7 @@ server {
 
     # 上传文件访问
     location /uploads/ {
-        alias /path/to/QQ-WEIXIN-ZHIFUBAO/backend/uploads/;
+        alias /path/to/TriPay/backend/uploads/;
     }
 }
 ```
@@ -218,7 +218,7 @@ docker run -d -p 3000:3000 -v $(pwd)/backend/uploads:/app/uploads qrcode-app
 ## 项目结构
 
 ```
-QQ-WEIXIN-ZHIFUBAO/
+TriPay/
 ├── backend/                 # 后端服务
 │   ├── server.js           # 主入口文件
 │   ├── uploads/            # 上传文件目录
