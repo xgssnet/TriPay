@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Database
+*.sqlite
+*.db
+
+# Claude
+.claude/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+
+# Build
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
